@@ -59,3 +59,33 @@ SLA / Tempo
 - 99,9% -> 10,1min/semana -> 43,2 min/mês -> 8,76h/ano
 - 99,95% -> 5min/semana -> 21,6min/mês -> 4,38h/ano
 - 99,999% -> 6 seg/semana -> 25,9seg/mês -> 5,26/ano
+
+# Tipos de Serviço de Nuvem
+- Descrever o modelo de responsabilidade compartilhada
+- Identificar os casos de uso apropriados para cada serviço de nuvem (IaaS, PaaS e SaaS)
+- As diferenças estão no licenciamento
+- O ambiente on-promise é de total responsabilidade do cliente
+
+IaaS (Infrastructure as a Service)
+- É o mais utilizado
+- Recursos que temos acesso, onde configuramos
+- Crie uma infraestruturade TI de pagaemnto conforme o uso alugando servidores, máquinas virtuais, armazenamento, redes e sistemas operacionais de um provedor de nuvem.
+- É o mais flexível, te dá mais poder de gerenciar
+- Você configura e gernecia para o seu aplicativo
+- Maior gestão
+
+PaaS (Platform as a Service)
+- Engloba IaaS (adicionando Sistemas Operacionais e Ferramentas para desenvolvedores, análise de negócios de gerenciamento de database)
+- Fornece um ambiente para a criação, o teste e a implantação de aplicativos de software, sem focar no gerenciamento da infraestrutura subjacente.
+- Focado no desenvolvimento de aplicativos- O gerenciamento de plataforma é realizado pelo provedor de nuvem
+- Gestão intermediária
+- Os usuários podem criar e implantar um aplicativo o mais rápido possível, sem terem que se preocupar com gerenciar a infraestrutura subjacente
+
+SaaS (Software as a Service)
+- Engloba IaaS e PaaS
+- Aplicativos e Apps hospedados
+- Modelo de preço de pagamento conforme uso
+- Os usuários pagam pelo software que utilizam em um modelo de assinatura
+- Menor gestão
+
+Hands-on / Configurando uma instância de Banco de Dados na Azure
