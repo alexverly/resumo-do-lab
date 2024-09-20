@@ -89,3 +89,80 @@ SaaS (Software as a Service)
 - Menor gestão
 
 Hands-on / Configurando uma instância de Banco de Dados na Azure
+
+# Componentes de Arquitetura de Azure
+
+Objetivos
+- Descrever regiões, pares de regiões e regiões soberanas do Azure
+- Descrever as zonas de disponibilidade
+- Descrever os datacenters do Azure
+- Descrever os recursos e os grupos de recursos do Azure
+- Descrever as assinaturas
+- Descrever os grupos de gerenciamento
+- Descrever a hierarquia de grupos de recursos, assinaturas e grupos de gerenciamento
+
+Contas do Azure
+- Conta do Azure
+- Conta gratuita do Azure
+- Conta de estudante gratuita do Azure
+- Área restrita do Microsoft Learn
+
+Regiões / Zona de Disponibilidade
+- O Azure oferece mais regiões globais do que qualquer outro provedor de nuvem, com mais de 60 regiões representando mais de 140 países
+- As regiões são compostas de um ou mais datacenters muito próximos
+- Eles fornecem flexibilidade e escala para reduzir a latência do cliente (Redundância?)
+- As regiões preservam a residência dos dados com uma oferta abrangente de conformidade (LGPD?)
+- Fornece proteção contra tempo de inatividade devido a falha do datacenter
+- Separe fisicamente os datacenters dentro da mesma região
+- Cada datacenter é equipado com alimentação, resfriamento e rede independentes
+- Conectadas por meio de redes privadas de fibra óptica
+
+# Entendendo Pares de Região e Grupos de Recursos
+
+Pares de Regiões
+- No mínimo 300 milhas de separação entre pares de regiões
+- Replicação automática para alguns serviços
+- Recuperação de região priorizada em caso de interrupção
+- As atualizações são distribuídas sequencialmente para minimizar o tempo de inatividade
+- Link da Web: https://aka.ms/PairedRegions-ptb
+
+Regiões Sobenaras do Azure
+- Serviços Governamentais dos EUA: Atende às necessidades de segurança e conformidade das agências federais, governos estaduais e locais dos EUA e seus provedores de soluções.
+- Azure Governamental: Instância separada do Azure; Fisicamente isolada de implantações que não sejam do governo dos EUA; Acessível somente a pessoal verificado e autorizado;
+- Azure China: A Microsoft é o primeiro provedor estrangeiro de serviços de nuvem pública da China, em conformidade com as regulamentações governamentais;
+- Recursos do Azure China: Instância fisicamente separada dos serviços de nuvem do Azure operados pela 21Vianet; Todos os dados permanecem dentro da China para garantir a conformidade;
+
+Recursos do Azure
+- Os recursos do Azure são componentes como armazenamento, máquinas virtuais e redes que estão disponíveis para criar soluções de nuvem;
+- Máquinas virtuais
+- Contas de Armazenamento
+- Redes Virtuais
+- Serviços de Aplicativos
+- Bandos de Dados SQL
+- Funções
+
+Grupo de Recursos
+- Um grupo de recursos é um contêiner que você usa para gerenciar e agregar recursos em uma única unidade
+- Os recursos podem existir em apenas um grupo de recursos
+- Os recursos podem existir em diferentes regiões
+- Os recursos podem ser movidos para diferentes grupos de recursos
+- Os aplicativos podem utilizar vários grupos de recursos
+
+# Assinatura da Azure e Grupos de Gerenciamentos
+
+Assinatura do desenvolvimento
+Assinatura do teste
+Assinatura da produção
+
+- Uma conta pode ter diversas assinaturas, mas uma assinatura está associada apenas a uma conta
+- Uma assinatura do Azure fornece a você acesso autenticado e autorizado às contas do Azure
+
+Assinaturas do Azure
+- Limite de Cobrança: gere relatórios de cobrança e faturas separados para cada assinatura
+- Limite de controle de acesso: gerenciar e controlar o acesso aos recursos que os usuários podem provisionar com assinaturas específicas
+
+Grupos de Gerenciamentos
+- Grupos de gerenciamento > Assinaturas > Grupos de Recursos > Recursos
+- Os grupos de gerenciamento podem incluir várias assinaturas do Azure
+- As assinaturas herdam as condições aplicadas ao grupo de gerenciamento
+
