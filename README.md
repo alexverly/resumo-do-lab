@@ -318,3 +318,58 @@ Opções de Gerenciamento de Arquivos
 > Sincronização de Arquivos do Azure
 - Sincroniza os arquivos do Azure e locais de forma bidirecional
 - A camada de nuvem mantém os arquivos acessados com frequência no local, enquanto libera espaço
+
+# Identidade, Acesso e Segurança
+
+ID do Microsoft Entra
+- O Microsoft Entra ID é o serviço de gerenciamento de identidades e acesso baseado em nuvem do Microsoft Azure
+- Autenticação (os funcionários entram para acessar os recursos)
+- Logon único (SSO)
+- Gerenciamento de aplicativos
+- Negócios para Negócios (B2B)
+- Gerenciamento de dispositivos
+
+Microsoft Entra Domain Services
+- Obtenha os benefícios dos serviços de domínio baseados em nuvem sem gerenciar os controladores de domínio.
+- Execute aplicativos herados (que não podem utilizar os padrões de autenticação modernos) na nuvem.
+- Sincronizar automaticamente a partir do Microsoft Entra ID
+
+Comparar a autenticação e a autorização
+> Autenticação
+- Identifica a pessoa ou serviço buscando acesso a um recurso
+- Solicita credenciais de acesso legítimo
+- Base para criar princípios de identidade e controle de acesso seguros
+
+> Autorização
+- Determina nível de acesso de uma pessoa ou serviço autenticado
+- Define quais dados eles podem acessar e o que podem acessar e o que podem fazer com eles
+
+> Autenticação multifator
+- Fornece segurança adicional para as identidades exigindo dois ou mais elementos para autenticação completa
+- Algo que você sabe > Algo que você possui > Algo que você é
+
+> B2B do Microsoft Entra External ID
+
+> B2C do Identidades Externas do Azure AD
+
+> Acesso Condicional
+- Associação de usuário ou grupo
+- Local do IP
+- Dispositivo
+- Aplicativo
+- Detecção de risco
+
+Controle de acesso baseado em função
+- Gerenciamento de acesso de granularidade finais
+- Divida as tarefas dentro da equipe e conceda somente a quantidade de acesso de que os usuários precisam para trabalhar
+- Habilite o acesso ao portal do Azure e o controle de acesso aos recursos
+
+Confiança Zero
+- Proteja os ativos onde eles estiverem com a Confiança Zero
+- Proteção completa (segurança física, Identidade e acesso, Perímetro, Rede, Computação, Aplicativo e Dados)
+- Uma abordagem em camadas para proteger sistemas de computador
+- Fornece vários níveis de proteção
+- Ataques contra uma camada são isolados das camadas subsequentes
+
+Microsoft Defender para Nuvem
+- O Microsoft Defender para Nuvem é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais
