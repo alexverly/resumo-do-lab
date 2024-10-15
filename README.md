@@ -374,7 +374,6 @@ Confiança Zero
 Microsoft Defender para Nuvem
 - O Microsoft Defender para Nuvem é um serviço de monitoramento que fornece proteção contra ameaças nos datacenters do Azure e locais
 
-==============================================================================================================
 # Gerenciamento de Custos na Azure
 
 Gerenciamento de Custos
