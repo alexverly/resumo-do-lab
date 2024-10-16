@@ -465,3 +465,36 @@ Microsoft Purview
 - Descoberta de dados automatizada
 - Classificação de dados confidenciais
 - Linhagem de dados de ponta a ponta
+
+# Ferramentas de Gerenciamento e Implantação
+
+Roteiro de Aprendizagem
+- Porta, PowerShell, CLI e outras
+- Azure Arc e Azure Resource Manager
+
+Ferramentas para interagir com o Azure
+- Portal do Azure
+- Azure PowerShell
+- Azure Cloud Shell
+- Interface de Linha de Comando (CLI)
+
+Azure Arc
+- Está disponível independente da assinatura
+- Multicloud
+- AWS e GCP
+
+ARM (Azure Resource Manager)
+- O ARM fornece uma camada de gerenciamento que permite criar, atualizar e excluir recursos na assinatura do Azure
+
+Infraestrutura como código
+- Garanta consistência na implantação em todo o ecossistema de nuvem
+- Gerencie a configuração em escala
+- Provisione rapidamente ambientes adicionais com base em uma configuração e um build padrão
+
+Modelos do ARM (Azure Resource Manager)
+- Os modelos do ARM são arquivos JSON (JavaScript Object Notation) que podem ser usados para criar e implantar a infraestrutura do Azure sem a necessidade de escrever comandos de programação.
+- Sintaxe declarativa
+- Orquestração
+- Arquivos modulares
+- Validação integrada
+- Código exportável
