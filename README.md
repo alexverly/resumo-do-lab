@@ -520,3 +520,25 @@ Integridade do Serviço do Azure
 
 Azure Monitor
 - O Azure Monitor maximiza a disponibilidade e o desempenho de aplicativos e serviços coletando, analisando e tomando decisões com base na telemetria da nuvem e de ambientes locais.
+
+# Ferramentas de Monitoramento Azure
+
+Roteiro de Aprendizagem
+- Assistente do Azure
+- Integridade do Serviço
+- Azure Monitor
+
+Assistente do Azure
+- O Assistente do Azure analisa recursos implantados do Azure e faz recomendações com base nas práticas recomendadas para otimizar as implantações do Azure
+- Confiabilidade
+- Segurança
+- Desempenho
+- Custo
+- Excelência Operacional
+
+Integridade do Serviço do Azure
+- A Integridade do Serviço do Azure é uma coleção de serviços que mantêm você informado sobre o status geral do Azure, status de serviços que podem afetar você e o status de recursos específico que está afetando você
+- Resource Health: exibição personalizada dos recursos reais do Azure. Ele fornece informações sobre a integridade de seus recursos de nuvem individuais.
+
+Azure Monitor
+- O Azure Monitor maximiza a disponibilidade e o desempenho de aplicativos e serviços coletando, analisando e tomando decisões com base na telemetria da nuvem e de ambientes locais.
